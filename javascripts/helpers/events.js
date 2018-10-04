@@ -1,6 +1,12 @@
+import { petsBuilder } from "../components/petComponent.js";
 
 const sortPets= ()=> {
-    
+    if(type==="All") {
+        petsBuilder(pets);
+    } else {
+        const filterpets = pets.filter(x=>x.type === type);
+        petsBuilder(filterpets);
+    }
 }
 
 const sortEvents = () => {
@@ -14,3 +20,4 @@ const sortEvents = () => {
     dinoButton.addEventListener('click', sortPets);
 }
 
+export{sortEvents};
