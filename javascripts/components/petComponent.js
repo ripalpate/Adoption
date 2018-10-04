@@ -1,6 +1,6 @@
 import { printToDom } from "../helpers/util.js";
 
-const pets= [];
+let pets= [];
 
 const setPets = (newArray) => {
     pets = newArray;
@@ -17,7 +17,7 @@ const petsBuilder =(petsArray) => {
     domString +=    `<div class="card-header bg-transparent border-success">${pet.name}</div>`;
     domString +=    `<div class="card-body text-success">`;
     domString +=        `<img src="${pet.imageUrl}" alt="${pet.name}">`
-    domString +=        `<h5 class="${pet.color}"</h5>`;
+    domString +=        `<h5 class="card-title">${pet.color}</h5>`;
     domString +=        `<p class="card-text">${pet.specialSkill}</p>`;
     domString +=    `</div>`;
     domString +=    `<div class="card-footer bg-transparent border-success">${pet.type}</div>`

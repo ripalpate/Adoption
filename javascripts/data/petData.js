@@ -3,7 +3,7 @@ import {setPets, petsBuilder, getPetz} from "../components/petComponent.js";
 function executeThisCodeAfterFileLoaded (){
     const data = JSON.parse(this.responseText);
     setPets(data.pets);
-    petsBuilder(getPetz);
+    petsBuilder(getPetz());
 }
 function executeThisCodeIfXhrFails() {
     console.log('error');
