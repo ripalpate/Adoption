@@ -46,7 +46,7 @@
         "color": "Black",
         "specialSkill": "Can read (but cannot understand) Hebrew.",
         "type": "dog",
-        "imageUrl": "http://dogzforever.com/wp-content/uploads/2017/08/akc-funny-basset-hound-yawn-ears.jpg"
+        "imageUrl": "https://cdn.akc.org/content/article-body-image/funny-basset_hound_yawning.jpg"
       },
       {
         "id": "pet7",
@@ -62,7 +62,7 @@
         "color": "Grey",
         "specialSkill": "Comfortable in the outdoors for up to eight hours.",
         "type": "dino",
-        "imageUrl": "http://nation.lk/online/wp-content/uploads/2016/09/dino.jpg"
+        "imageUrl": "https://vignette.wikia.nocookie.net/tyrannosaurus/images/c/c5/Mama_Dino_2.jpg/revision/latest?cb=20141228163131"
       },
       {
         "id": "pet9",
@@ -150,7 +150,7 @@
         "color": "Blue",
         "specialSkill": "Listens attentively to boring stories.",
         "type": "dog",
-        "imageUrl": "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg"
+        "imageUrl": "https://cdn.psychologytoday.com/sites/default/files/field_blog_entry_images/bullcitydogs%20photo.jpg"
       },
       {
         "id": "pet20",

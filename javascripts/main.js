@@ -1,8 +1,13 @@
-import { petsBuilder } from "./components/petComponent.js";
+
+import { getPets } from "./data/petData.js";
+import { sortEvents } from "./helpers/events.js";
+
+
+
 
 const initializeApp = () => {
-    petsBuilder();
-
+    getPets();
+    sortEvents();
 }
 
 initializeApp();
