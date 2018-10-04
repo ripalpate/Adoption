@@ -16,9 +16,9 @@ const getPetz = () => {
 const petsBuilder =(petsArray) => {
     let domString = '';
     petsArray.forEach((pet)=>{
-    domString +=`<div class="card border-success mb-3 col-3 pet-card" id="${pet.id}">`;
+    domString +=`<div class="card border-success m-3 p-3 col-3 pet-card" id="${pet.id}">`;
     domString +=    `<div class="card-header bg-transparent border-success">${pet.name}</div>`;
-    domString +=    `<div class="card-body text-success">`;
+    domString +=    `<div class="card-body text-dark">`;
     domString +=        `<img src="${pet.imageUrl}" alt="${pet.name}" width="200px" height="250px">`
     domString +=        `<h5 class="card-title">${pet.color}</h5>`;
     domString +=        `<p class="card-text">${pet.specialSkill}</p>`;
