@@ -2,14 +2,17 @@ import { printToDom } from "../helpers/util.js";
 
 let pets= [];
 
+// setter method for pets
 const setPets = (newArray) => {
     pets = newArray;
 }
 
+// getter method for pets
 const getPetz = () => {
     return pets;
 }
 
+// function to print string
 const petsBuilder =(petsArray) => {
     let domString = '';
     petsArray.forEach((pet)=>{
@@ -26,4 +29,4 @@ const petsBuilder =(petsArray) => {
     printToDom(domString);
 }
 
-export{petsBuilder,setPets, getPetz};
+export{petsBuilder,setPets, getPetz, pets};
