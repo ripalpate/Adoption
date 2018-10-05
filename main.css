@@ -8,3 +8,12 @@ body{
     text-align: center;
     margin:20px;
 }
+.cat {
+    background: #b3d9ff !important;
+}
+.dog {
+    background: #b3ffcc !important;
+}
+.dino {
+    background: #ffe6cc !important;
+}
