@@ -4,16 +4,16 @@ This project is an exploration of ES6modules, JSON and XHRrequest. The applicati
 
 ## Screenshots
 1. Website Introduction Page
-![main screen shot](./screenshots/full-page.png)
+![main screen shot](./Screenshots/full-page.png)
 
 2. Filtered Cat Cards
-![main screen shot](./screenshots/cat-cards.png)
+![main screen shot](./Screenshots/cat-cards.png)
 
 3. Filtered Dogs Cards
-![main screen shot](./screenshots/dog-cards.png)
+![main screen shot](./Screenshots/dog-cards.png)
 
 4. Filtered Dinos Cards
-![main screen shot](./screenshots/dino-cards.png)
+![main screen shot](./Screenshots/dino-cards.png)
 
 
 
