@@ -23,8 +23,9 @@ const petsBuilder =(petsArray) => {
     domString +=        `<h5 class="card-title">${pet.color}</h5>`;
     domString +=        `<p class="card-text">${pet.specialSkill}</p>`;
     domString +=    `</div>`;
-    domString +=    `<div class="card-footer bg-transparent border-success">${pet.type}</div>`
+    domString +=    `<div class="card-footer bg-transparent border-success ${pet.type}">${pet.type}</div>`
     domString +=`</div>`;
+
 });
     printToDom(domString);
 }
